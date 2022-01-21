@@ -1,10 +1,10 @@
-public class Clientes {
+public class Cliente {
     private String nome;
     private boolean status;
     private String senha;
     private int compras;
 
-    public Clientes(String nome, boolean status, String senha, int compras) {
+    public Cliente(String nome, boolean status, String senha, int compras) {
         this.nome = nome;
         this.status = status;
         this.senha = senha;
@@ -12,7 +12,7 @@ public class Clientes {
 
     }
 
-    public static int getCompras() {
+    public int getCompras() {
         return compras;
     }
 
